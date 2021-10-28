@@ -11,5 +11,14 @@
   "workspaces": [
     "frontend",
     "shared"
-  ]
+  ],
+  "devDependencies": {
+    "@nrwl/cli": "latest",
+    "@nrwl/next": "^13.1.2",
+    "@nrwl/node": "^13.1.2",
+    "@nrwl/tao": "latest",
+    "@nrwl/workspace": "latest",
+    "prettier": "^2.4.1",
+    "typescript": "4.2.4"
+  }
 }
