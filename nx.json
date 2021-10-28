@@ -3,9 +3,16 @@
   "npmScope": "monorepo",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "test", "lint", "package", "prepare"]
+        "cacheableOperations": [
+          "build",
+          "test",
+          "lint",
+          "package",
+          "prepare"
+        ],
+        "accessToken": "MTdkMjc1YmUtNzFhMi00ODBlLTg2OWYtNjYzYTc2OGM1M2NjfHJlYWQtd3JpdGU="
       }
     }
   },
